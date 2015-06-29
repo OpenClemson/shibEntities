@@ -230,6 +230,69 @@ A4kwYIb0YlAaq0cuUSvvNSt1U5Y/MXdbKYD5JOhMmBg=
 </ds:Signature>
 </EntityDescriptor>
 
+<!-- fikesurveytool.app.clemson.edu -->
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="I343577851d56d6a1" entityID="https://fikesurveytool.app.clemson.edu/shibboleth-sp" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+	<SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<KeyDescriptor>
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDrDCCApSgAwIBAgICBpowDQYJKoZIhvcNAQEFBQAwgZgxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJXQTEQMA4GA1UEBxMHU2VhdHRsZTESMBAGA1UEChMJTXlDb21wYW55MQswCQYDVQQLEwJJVDEeMBwGA1UEAxMVbG9jYWxob3N0LmxvY2FsZG9tYWluMSkwJwYJKoZIhvcNAQkBFhpyb290QGxvY2FsaG9zdC5sb2NhbGRvbWFpbjAeFw0xNDA4MTgxNDMxMTBaFw0yNDA4MTUxNDMxMTBaMIGYMQswCQYDVQQGEwJVUzELMAkGA1UECBMCV0ExEDAOBgNVBAcTB1NlYXR0bGUxEjAQBgNVBAoTCU15Q29tcGFueTELMAkGA1UECxMCSVQxHjAcBgNVBAMTFWxvY2FsaG9zdC5sb2NhbGRvbWFpbjEpMCcGCSqGSIb3DQEJARYacm9vdEBsb2NhbGhvc3QubG9jYWxkb21haW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7HINRnQjF8XPCSPkL81QkAV92+PwjwDxtaDjmPRfW7BgSmkEty5OMl49eBhLSRXsjGFmXMoYKq5Ho4fcNSkA5ABhDZO5rc/QDFlhh00J1IJWbfMlH6XqGNbpWWwu7Q3tzJfXO20bKLbDKYps4BqAK+0xzVznH9cNIkxD2nMF1uJ1kTVVYG5EX5SMmmctpzQYk4w087AEHMJKMrTAkWcFIEYXtcw9tzeupsFLYMbDpNi+JB73K2rb/UZf8FIxG+KdemW/IBHktEBOFrskQMtFCIgq7lCb0mTn/P/nDPB1OUs9BQTd+JgOxngbsm1/B3LI25UMH5ACI9xsembTEuNTnAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAH9w74cFu1TK6U0bECRxeggIY9l3Fu/F8lexvIJlNuMVf718SDMOe8z0rnMSI5WoJemhZaAdvDH1CNp8nX2uDaK9vPzwkY4UdgmCCeKr5o15xYHMmXEwqGwlvD5OMgxzRAutDX8QpcsOoa4hDyiICkeEJh16llnx6mcejlyWLYVRVxJULjWoBwODbn8vEviHpWi/sT0/yXOgbYgnUtB1oCRZNohH3zUEHrOHYp6nYSnNIitjX5ppDw9pAsxI3L8wNM46LrBMNy95fZymLtoXvdHV/0kGu8MgA01xW1/ugmS4WArN9fS3XS9kN4Y0QNAx4kEIBHfffFjrA7rizUeTbHg=</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</KeyDescriptor>
+		<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+		<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fikesurveytool.app.clemson.edu/saml/sp/profile/post/acs" index="0" isDefault="true">
+		</AssertionConsumerService>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fikesurveytool.app.clemson.edu/saml/sp/profile/post/sls" ResponseLocation="https://fikesurveytool.app.clemson.edu/saml/sp/profile/post/slr" isDefault="true">
+		</SingleLogoutService>
+	</SPSSODescriptor>
+
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#I343577851d56d6a1">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>yLIXp51l25dZqpkiqDh3CZrnTIA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>MvltUh3P0Fq5cwjbVVTsTQIH1OvYEQOO9qkj4Z6hMz4+3m8BovogP27BP0cid7Qr
+0RXnyOdRMmE+jS7xG3dt3La6q4l6+HwOSgzhBXw6gia08jy/b4hXJjcR/1t5u7tk
+yDG5iN9hoOniECJggBKEf7xq/WxQ16N0OZXnulbmxQWKGToWEwWoDjRv9osSBOOq
+wiP1uWIZMZ618zFJTE7ZR4xNYVoZ2xAQMAc4C9Gx1vmDuUd5bR/vXXqS+3QjR9N8
+xk8mCnbd8laDnu228kOeXYzkhypxLi987QfCz0pznx/kjAOLchuhzjBV4VRUnWsx
+cB6RARLXBnG9FB+Hv+3OCg==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIDrDCCApSgAwIBAgICBpowDQYJKoZIhvcNAQEFBQAwgZgxCzAJBgNVBAYTAlVT
+MQswCQYDVQQIEwJXQTEQMA4GA1UEBxMHU2VhdHRsZTESMBAGA1UEChMJTXlDb21w
+YW55MQswCQYDVQQLEwJJVDEeMBwGA1UEAxMVbG9jYWxob3N0LmxvY2FsZG9tYWlu
+MSkwJwYJKoZIhvcNAQkBFhpyb290QGxvY2FsaG9zdC5sb2NhbGRvbWFpbjAeFw0x
+NDA4MTgxNDMxMTBaFw0yNDA4MTUxNDMxMTBaMIGYMQswCQYDVQQGEwJVUzELMAkG
+A1UECBMCV0ExEDAOBgNVBAcTB1NlYXR0bGUxEjAQBgNVBAoTCU15Q29tcGFueTEL
+MAkGA1UECxMCSVQxHjAcBgNVBAMTFWxvY2FsaG9zdC5sb2NhbGRvbWFpbjEpMCcG
+CSqGSIb3DQEJARYacm9vdEBsb2NhbGhvc3QubG9jYWxkb21haW4wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7HINRnQjF8XPCSPkL81QkAV92+PwjwDxt
+aDjmPRfW7BgSmkEty5OMl49eBhLSRXsjGFmXMoYKq5Ho4fcNSkA5ABhDZO5rc/QD
+Flhh00J1IJWbfMlH6XqGNbpWWwu7Q3tzJfXO20bKLbDKYps4BqAK+0xzVznH9cNI
+kxD2nMF1uJ1kTVVYG5EX5SMmmctpzQYk4w087AEHMJKMrTAkWcFIEYXtcw9tzeup
+sFLYMbDpNi+JB73K2rb/UZf8FIxG+KdemW/IBHktEBOFrskQMtFCIgq7lCb0mTn/
+P/nDPB1OUs9BQTd+JgOxngbsm1/B3LI25UMH5ACI9xsembTEuNTnAgMBAAEwDQYJ
+KoZIhvcNAQEFBQADggEBAH9w74cFu1TK6U0bECRxeggIY9l3Fu/F8lexvIJlNuMV
+f718SDMOe8z0rnMSI5WoJemhZaAdvDH1CNp8nX2uDaK9vPzwkY4UdgmCCeKr5o15
+xYHMmXEwqGwlvD5OMgxzRAutDX8QpcsOoa4hDyiICkeEJh16llnx6mcejlyWLYVR
+VxJULjWoBwODbn8vEviHpWi/sT0/yXOgbYgnUtB1oCRZNohH3zUEHrOHYp6nYSnN
+IitjX5ppDw9pAsxI3L8wNM46LrBMNy95fZymLtoXvdHV/0kGu8MgA01xW1/ugmS4
+WArN9fS3XS9kN4Y0QNAx4kEIBHfffFjrA7rizUeTbHg=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+</EntityDescriptor>
 <!-- End metadata entries -->
 <!-- Closing Entites Descriptor tag -->
 </EntitiesDescriptor>
